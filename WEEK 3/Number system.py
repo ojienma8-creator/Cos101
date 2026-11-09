@@ -1,0 +1,10 @@
+number = float(input("Enter a Number: "))
+
+if (number >= 0 and number <= 100):
+    if number > 0:
+        print("The number is positive!")
+    elif number < 0:
+        print("The number is negative!")
+else:
+    print("False!")
+
